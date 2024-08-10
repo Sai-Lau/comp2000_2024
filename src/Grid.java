@@ -2,10 +2,10 @@ import java.awt.Graphics;
 import java.awt.Point;
 
 public class Grid {
-  // fields
+  //Instances
   Cell[][] cells = new Cell[20][20];
   
-  // constructors
+  //Constructors
   public Grid() {
     for(int i=0; i<cells.length; i++) {
       for(int j=0; j<cells[i].length; j++) {
@@ -13,7 +13,7 @@ public class Grid {
       }
     }
   }
-  // methods
+  //Methods
   public void paint(Graphics g, Point mousePos) {
     for(int i=0; i<cells.length; i++) {
       for(int j=0; j<cells[i].length; j++) {
