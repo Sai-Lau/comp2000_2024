@@ -18,8 +18,8 @@ public class Trail{
                 points.remove(0);
             }
             points.add(p);
-
         }
+
 
         for(Point xy : points) {
             g.setColor(Color.GRAY);
